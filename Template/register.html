@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="banner">
+        <header>
+            <div class="container-nav">
+                <h1 class="logo">Cute Dogs.com</h1>
+                <button class="nav-toggle" id="nav-toggle">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="list">
+                        <li class="list-item"><a href="home.html">HOME</a></li>
+                        <li class="list-item"><a href="login.html">LOGIN</a></li>
+                        <li class="list-item"><a href="register.html">REGISTER</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header> 
+        <form class="input-container" id="input-form">
+            <div class="reg-status" id="reg-status"></div>
+            <input type="text" id="firstName" placeholder="first name">
+            <input type="text" placeholder="second name" id="secondName">
+            <input type="text" placeholder="username" id="userName">
+            <input type="email" placeholder="email" id="email">
+            <input type="password" placeholder="create password" id="password">
+            <button class="regbtn" id="reg-btn">create Account</button>
+        </form>
+    </div>
+</body>
+<scripts src="./scripts/app.js"></scripts>
+<script src="./scripts/register.js"></script>
+</html>
